@@ -6,6 +6,7 @@ function Header() {
     return (
 
         <header className="header">
+            {/* added house emoji to logo */}
             <a className="logo">House-It 🏠</a>
             <div className="header-right">
                 <Link to="/profile">
